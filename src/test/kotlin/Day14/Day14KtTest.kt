@@ -22,4 +22,24 @@ class Day14KtTest {
 
         assertEquals(7611244640053, result)
     }
+
+    @ExperimentalStdlibApi
+    @Test
+    fun `should return sum of values for varying mask for example`() {
+        val testFileInput = readFile("src/test/resources/day142")
+
+        val result = sumOfValuesForVaryingMask(testFileInput)
+
+        assertEquals(208, result)
+    }
+
+    @ExperimentalStdlibApi
+    @Test
+    fun `should return sum of values for varying mask`() {
+        val testFileInput = readFile("src/main/resources/day14")
+
+        val result = sumOfValuesForVaryingMask(testFileInput)
+
+        assertEquals(3705162613854, result)
+    }
 }
