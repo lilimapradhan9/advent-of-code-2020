@@ -18,6 +18,6 @@ class Day13KtTest {
 
         val result = idmultipliedBytime(testFileInput)
 
-        Assertions.assertEquals(508, result)
+        Assertions.assertEquals(3385, result)
     }
 }

@@ -1,4 +1,4 @@
-package Day11
+package Day12
 
 enum class Direction {
     N {
