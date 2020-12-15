@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test
 
 class Day15KtTest {
     @Test
-    fun `should return the 2020 spoken number for 1,3,2`() {
+    fun `should return the 2020 spoken number for 0, 3, 6`() {
         val numberSpoken = numberSpoken(listOf(0, 3, 6), 2020)
 
         Assertions.assertEquals(436, numberSpoken)
@@ -16,5 +16,20 @@ class Day15KtTest {
         val numberSpoken = numberSpoken(listOf(0, 13, 1, 8, 6, 15), 2020)
 
         Assertions.assertEquals(1618, numberSpoken)
+    }
+
+    @Test
+    fun `should return the 30000000 spoken number for 0, 3, 6`() {
+        val numberSpoken = numberSpokenV2(listOf(0, 3, 6), 30000000)
+
+        Assertions.assertEquals(175594, numberSpoken)
+    }
+
+
+    @Test
+    fun `should return the 30000000 spoken number for 0,13,1,8,6,15`() {
+        val numberSpoken = numberSpokenV2(listOf(0,13,1,8,6,15), 30000000)
+
+        Assertions.assertEquals(175594, numberSpoken)
     }
 }
