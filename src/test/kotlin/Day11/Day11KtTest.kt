@@ -1,7 +1,10 @@
+package Day11
+
 import Day12.manhattanDistance
 import Day12.wayPointRelativeDistance
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
+import readFile
 
 class Day11KtTest {
     @Test

@@ -30,6 +30,6 @@ class Day15KtTest {
     fun `should return the 30000000 spoken number for 0,13,1,8,6,15`() {
         val numberSpoken = numberSpokenV2(listOf(0,13,1,8,6,15), 30000000)
 
-        Assertions.assertEquals(175594, numberSpoken)
+        Assertions.assertEquals(548531, numberSpoken)
     }
 }
